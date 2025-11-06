@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{background:#9f9f9f}
+body{
+    width: 900px;
+    margin: 10px auto;
+    background-color: #d9d9d9;
+    border: 6px solid #cfe8ff;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+header{
+    height: 72px;
+    margin: 6px 0px;
+    position: relative;
+}
+header h2{
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+    background: #002b9f;
+    padding: 10px 0;
+    font-size: 20px;
+}
+header::before{content:"";display:block;height:8px;background:#9fd8ff}
+nav{
+    height: 56px;
+    background-color: #b8b3f0;
+    display:flex;
+    align-items:center;
+}
+nav ul{
+    width: 600px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+nav ul li{list-style:none}
+nav ul li a{
+    color:#10307a;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    text-decoration:none;
+}
+.i_aside{
+    width: 20%;
+    float: left;
+}
+.layout{display:flex;gap:16px;align-items:flex-start}
+.l_aside{
+    flex:0 0 18%;
+    padding: 8px 12px;
+    color:#111;
+    background: transparent;
+}
+.r_aside{
+    flex:0 0 18%;
+    padding: 8px 12px;
+    color:#111;
+    background: transparent;
+}
+.m_main{
+    flex:1 1 auto;
+    background:#eaf6fb;
+    padding: 8px 12px;
+    box-sizing:border-box;
+}
+.m_main article{
+    margin: 18px 0;
+    background: transparent;
+    padding: 0 6px;
+}
+.m_main article header h4{
+    display: block;
+    width: 60%;
+    max-width: 360px;
+    margin: 6px auto 8px auto;
+    background: #00f0df;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.m_main article p{
+    padding: 8px 12px;
+    color:#000;
+    width: 60%;
+    max-width: 640px;
+    margin: 6px auto;
+    text-align: center;
+}
+.m_main article footer{
+    background:#9ed6f8;
+    padding: 8px 12px;
+    margin-top: 12px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+.clearfix::after{content:"";display:block;clear:both}
+footer{
+    height: 48px;
+    background-color: #002b9f;
+    margin: 12px 0 6px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+footer p{color:#fff}

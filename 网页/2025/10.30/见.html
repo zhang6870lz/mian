@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>网页焦点图</title>
+	<style type="text/css">
+		div{
+			width: 560px;
+			height: 200px;
+			margin: auto;
+			position: relative;
+		}
+		a{
+			float: left;
+			width: 25px;
+			height: 90px;
+			line-height: 90px;
+			background-color: rgb(223, 67, 171);
+			opacity: 0.7;
+			border-radius: 4px;
+			text-align: center;
+			display: none;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		.left{
+			position: absolute;
+			left: -12px;
+			top: 60px;
+		}
+		.right{
+			position: absolute;
+			right: -12px;
+			top: 60px;
+		}
+		div:hover a{
+			display: block;
+		}
+		ul{
+			width: 80px;
+			height: 20px;
+			background: rgb(171, 209, 66);
+			opacity: 0.5;
+			border-radius: 8px;
+			position: absolute;
+			right: 30px;
+			bottom: 20px;
+			text-align: left;
+		}
+		li{
+			width: 5px;
+			height: 5px;
+			background: #ae3d3d;
+			border-radius: 50%;
+			display: inline-block;
+		}
+		.max{
+			width: 12px;
+			background: #63e163b2;
+			border-radius: 6px;
+		}
+		p{background-color: rgb(202, 101, 242);	
+			
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div>
+			<img src="网页/2025/10.30/su/hu.png" alt="风景" style="max-width:100%; height:auto; display:block;">
+			<a href="#" class="left"><</a>
+			<a href="#" class="right">></a>
+			<ul>
+				<li class="max"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<p style="text-align:center;">学号：W2400430&nbsp;&nbsp;&nbsp;&nbsp;姓名：张升爽&nbsp;&nbsp;&nbsp;&nbsp;班级：W24004</p>
+		</div>
+	</body>
+</html>
